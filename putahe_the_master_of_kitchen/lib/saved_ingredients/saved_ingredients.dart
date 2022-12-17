@@ -42,7 +42,7 @@ class _SavedIngredientsState extends State<SavedIngredients> {
         drawer: NavBar(),
         appBar: AppBar(
           centerTitle: true,
-          title: Text("Saved Ingredients",
+          title: Text("Saved Recipes",
               style: TextStyle(
                 fontSize: 20,
               )),

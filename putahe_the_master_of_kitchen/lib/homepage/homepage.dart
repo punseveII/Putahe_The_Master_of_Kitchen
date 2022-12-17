@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-// import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:like_button/like_button.dart';
 import 'package:putahe/homepage/commentBox/comment_one.dart';
 import 'package:putahe/homepage/commentBox/comment_two.dart';
