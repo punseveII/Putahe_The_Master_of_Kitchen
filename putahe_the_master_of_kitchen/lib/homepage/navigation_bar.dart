@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 //import 'package:putahe/videoList.dart';
-//import 'package:putahe/ingredientSaved/savedIngredients.dart';
+import 'package:putahe/saved_ingredients/saved_ingredients.dart';
 import 'homepage.dart';
 
 class NavBar extends StatelessWidget {
@@ -41,10 +41,10 @@ class NavBar extends StatelessWidget {
         ),
         ListTile(
           leading: const Icon(Icons.list_alt),
-          title: const Text('Saved Ingredients'),
+          title: const Text('Saved Recipes'),
           onTap: () {
-            // Navigator.of(context).push(MaterialPageRoute(
-            //     builder: (context) => const SavedIngredients()));
+            Navigator.of(context).push(MaterialPageRoute(
+                builder: (context) => const SavedIngredients()));
           },
         ),
         ListTile(
