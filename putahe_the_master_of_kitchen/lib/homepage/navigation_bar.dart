@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-//import 'package:putahe/videoList.dart';
-import 'package:putahe/saved_ingredients/saved_ingredients.dart';
 import 'homepage.dart';
+import 'package:putahe/saved_ingredients/saved_ingredients.dart';
+import 'package:putahe/order_dish/screens/home/home_screen.dart';
+import 'package:putahe/tutorial/tutorial.dart';
 
 class NavBar extends StatelessWidget {
   const NavBar({super.key});
@@ -51,8 +52,16 @@ class NavBar extends StatelessWidget {
           leading: const Icon(Icons.play_circle),
           title: const Text('Watch Videos'),
           onTap: () {
-            // Navigator.of(context).push(MaterialPageRoute(
-            //     builder: (context) => const VideoList()));
+            Navigator.of(context).push(
+                MaterialPageRoute(builder: (context) => const VideoList()));
+          },
+        ),
+        ListTile(
+          leading: const Icon(Icons.list_alt),
+          title: const Text('Order a dish'),
+          onTap: () {
+            Navigator.of(context).push(
+                MaterialPageRoute(builder: (context) => const HomeScreen()));
           },
         ),
       ],

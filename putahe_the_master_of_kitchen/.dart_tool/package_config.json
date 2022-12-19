@@ -80,6 +80,18 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "flutter_rating_bar",
+      "rootUri": "file:///D:/Programming/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_rating_bar-4.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "flutter_svg",
+      "rootUri": "file:///D:/Programming/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_svg-0.22.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///D:/Programming/FlutterDev/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -140,6 +152,18 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "path_drawing",
+      "rootUri": "file:///D:/Programming/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/path_drawing-0.5.1+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path_parsing",
+      "rootUri": "file:///D:/Programming/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/path_parsing-0.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "path_provider",
       "rootUri": "file:///D:/Programming/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.11",
       "packageUri": "lib/",
@@ -180,6 +204,12 @@
       "rootUri": "file:///D:/Programming/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-2.1.3",
       "packageUri": "lib/",
       "languageVersion": "2.17"
+    },
+    {
+      "name": "petitparser",
+      "rootUri": "file:///D:/Programming/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/petitparser-5.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
     },
     {
       "name": "platform",
@@ -266,13 +296,19 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "xml",
+      "rootUri": "file:///D:/Programming/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/xml-5.4.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
       "name": "putahe",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2022-12-17T09:35:27.755517Z",
+  "generated": "2022-12-19T05:56:44.818275Z",
   "generator": "pub",
   "generatorVersion": "2.18.5"
 }

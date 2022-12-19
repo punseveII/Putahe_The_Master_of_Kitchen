@@ -152,7 +152,7 @@ class Login extends StatelessWidget {
                               labelText: "Enter Password",
                               border: const OutlineInputBorder(),
                               prefixIcon: const Icon(Icons.lock),
-                              suffixIcon: const Icon(Icons.remove_red_eye),
+                              //suffixIcon: const Icon(Icons.remove_red_eye),
                             ),
                           ),
                         ),

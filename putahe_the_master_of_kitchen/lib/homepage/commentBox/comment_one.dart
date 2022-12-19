@@ -16,7 +16,7 @@ class _TestMeState extends State<TestMe> {
   List filedata = [
     {
       'name': 'Earl Michael Filosopo',
-      'pic': 'https://wallpaperaccess.com/full/1555663.jpg',
+      'pic': 'https://i.cartoonnetwork.com/orchestrator/839543_009_640x360.jpg',
       'message': 'I want to learn cooking',
       'date': '2021-01-01 12:00:00'
     },
